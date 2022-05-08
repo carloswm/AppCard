@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202124;
+  min-height: 100vh;
+}
+
+.item-card {
+  margin: 20px;
+}
+
+.input-container {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.input-container .control {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.input-container .control input {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 0;
+  padding-left: 20px;
+}
+
+.input-container .control input:focus-visible {
+  outline: none;
+}
+
+.input-container .control button {
+  border: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0 15px;
+}
